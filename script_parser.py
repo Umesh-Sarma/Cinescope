@@ -158,7 +158,7 @@ class ScriptParser:
 # -------------------- Example Usage --------------------
 
 if __name__ == "__main__":
-    script_to_parse = os.path.join("scripts", "The Backwards Clock.fdx")
+    script_to_parse = os.path.join("scripts", "The Purloined Millstone by E.A. Sprechmann.fdx")
 
     print(f"Attempting to parse FDX script from: {script_to_parse}")
     if not os.path.exists(script_to_parse):
